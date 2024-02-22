@@ -1,6 +1,7 @@
 package com.java.tessThread;
 
 /**
+ * 创建线程方式 1 继承 Thread
  * Thread 类的使用
  * 查看 Java JDK 文档，文档中有例子
  * 继承 Thread 重写 run 方法 （run 方法相当于程序执行的入口，与 main 方法类似）

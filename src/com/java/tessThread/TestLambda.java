@@ -22,7 +22,7 @@ public class TestLambda {
 
 
         // 匿名内部类
-        new Like(){
+        new Like() {
             @Override
             public void lambda() {
                 System.out.println("匿名内部类");
@@ -31,7 +31,7 @@ public class TestLambda {
 
 
         // lambda
-        Like like = ()-> {
+        Like like = () -> {
             System.out.println("我是 Like");
         };
         like.lambda();

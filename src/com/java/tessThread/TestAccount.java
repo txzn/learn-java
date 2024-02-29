@@ -64,6 +64,7 @@ class ATM extends Thread {
 
     public void toTake() throws InterruptedException {
         Thread.sleep(1000);
+        // 传入需要锁定的共享资源
         synchronized (accCount) {
             if (accCount.getBalance() < this.take) {
                 System.out.println(this.getName() + ",当前余额不足，当前余额为：" + accCount.getBalance());
